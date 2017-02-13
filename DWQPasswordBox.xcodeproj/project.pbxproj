@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047452DD1E5180FA00403002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047452DC1E5180FA00403002 /* main.m */; };
+		047452E01E5180FA00403002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047452DF1E5180FA00403002 /* AppDelegate.m */; };
+		047452E31E5180FA00403002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047452E21E5180FA00403002 /* ViewController.m */; };
+		047452E61E5180FA00403002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047452E41E5180FA00403002 /* Main.storyboard */; };
+		047452E81E5180FA00403002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047452E71E5180FA00403002 /* Assets.xcassets */; };
+		047452EB1E5180FA00403002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047452E91E5180FA00403002 /* LaunchScreen.storyboard */; };
+		047452F61E5180FA00403002 /* DWQPasswordBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047452F51E5180FA00403002 /* DWQPasswordBoxTests.m */; };
+		047453011E5180FA00403002 /* DWQPasswordBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047453001E5180FA00403002 /* DWQPasswordBoxUITests.m */; };
+		047453111E51817C00403002 /* DWQPasswordBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047453101E51817C00403002 /* DWQPasswordBoxView.m */; };
+		047453141E5181B400403002 /* NSString+DWQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 047453131E5181B400403002 /* NSString+DWQCategory.m */; };
+		047453161E51860E00403002 /* duwenquanLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 047453151E51860E00403002 /* duwenquanLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047452F21E5180FA00403002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047452D01E5180FA00403002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047452D71E5180FA00403002;
+			remoteInfo = DWQPasswordBox;
+		};
+		047452FD1E5180FA00403002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047452D01E5180FA00403002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047452D71E5180FA00403002;
+			remoteInfo = DWQPasswordBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047452D81E5180FA00403002 /* DWQPasswordBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWQPasswordBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047452DC1E5180FA00403002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047452DE1E5180FA00403002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047452DF1E5180FA00403002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047452E11E5180FA00403002 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047452E21E5180FA00403002 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		047452E51E5180FA00403002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047452E71E5180FA00403002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047452EA1E5180FA00403002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047452EC1E5180FA00403002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047452F11E5180FA00403002 /* DWQPasswordBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWQPasswordBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047452F51E5180FA00403002 /* DWQPasswordBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWQPasswordBoxTests.m; sourceTree = "<group>"; };
+		047452F71E5180FA00403002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047452FC1E5180FA00403002 /* DWQPasswordBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWQPasswordBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047453001E5180FA00403002 /* DWQPasswordBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWQPasswordBoxUITests.m; sourceTree = "<group>"; };
+		047453021E5180FA00403002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0474530F1E51817C00403002 /* DWQPasswordBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQPasswordBoxView.h; sourceTree = "<group>"; };
+		047453101E51817C00403002 /* DWQPasswordBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQPasswordBoxView.m; sourceTree = "<group>"; };
+		047453121E5181B400403002 /* NSString+DWQCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DWQCategory.h"; sourceTree = "<group>"; };
+		047453131E5181B400403002 /* NSString+DWQCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWQCategory.m"; sourceTree = "<group>"; };
+		047453151E51860E00403002 /* duwenquanLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duwenquanLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047452D51E5180FA00403002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047452EE1E5180FA00403002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047452F91E5180FA00403002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047452CF1E5180FA00403002 = {
+			isa = PBXGroup;
+			children = (
+				047452DA1E5180FA00403002 /* DWQPasswordBox */,
+				047452F41E5180FA00403002 /* DWQPasswordBoxTests */,
+				047452FF1E5180FA00403002 /* DWQPasswordBoxUITests */,
+				047452D91E5180FA00403002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047452D91E5180FA00403002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047452D81E5180FA00403002 /* DWQPasswordBox.app */,
+				047452F11E5180FA00403002 /* DWQPasswordBoxTests.xctest */,
+				047452FC1E5180FA00403002 /* DWQPasswordBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047452DA1E5180FA00403002 /* DWQPasswordBox */ = {
+			isa = PBXGroup;
+			children = (
+				047453151E51860E00403002 /* duwenquanLogo.png */,
+				0474530E1E51811D00403002 /* DWQPasswordBoxView */,
+				047452DE1E5180FA00403002 /* AppDelegate.h */,
+				047452DF1E5180FA00403002 /* AppDelegate.m */,
+				047452E11E5180FA00403002 /* ViewController.h */,
+				047452E21E5180FA00403002 /* ViewController.m */,
+				047452E41E5180FA00403002 /* Main.storyboard */,
+				047452E71E5180FA00403002 /* Assets.xcassets */,
+				047452E91E5180FA00403002 /* LaunchScreen.storyboard */,
+				047452EC1E5180FA00403002 /* Info.plist */,
+				047452DB1E5180FA00403002 /* Supporting Files */,
+			);
+			path = DWQPasswordBox;
+			sourceTree = "<group>";
+		};
+		047452DB1E5180FA00403002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047452DC1E5180FA00403002 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047452F41E5180FA00403002 /* DWQPasswordBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				047452F51E5180FA00403002 /* DWQPasswordBoxTests.m */,
+				047452F71E5180FA00403002 /* Info.plist */,
+			);
+			path = DWQPasswordBoxTests;
+			sourceTree = "<group>";
+		};
+		047452FF1E5180FA00403002 /* DWQPasswordBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047453001E5180FA00403002 /* DWQPasswordBoxUITests.m */,
+				047453021E5180FA00403002 /* Info.plist */,
+			);
+			path = DWQPasswordBoxUITests;
+			sourceTree = "<group>";
+		};
+		0474530E1E51811D00403002 /* DWQPasswordBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				0474530F1E51817C00403002 /* DWQPasswordBoxView.h */,
+				047453101E51817C00403002 /* DWQPasswordBoxView.m */,
+				047453121E5181B400403002 /* NSString+DWQCategory.h */,
+				047453131E5181B400403002 /* NSString+DWQCategory.m */,
+			);
+			path = DWQPasswordBoxView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047452D71E5180FA00403002 /* DWQPasswordBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047453051E5180FA00403002 /* Build configuration list for PBXNativeTarget "DWQPasswordBox" */;
+			buildPhases = (
+				047452D41E5180FA00403002 /* Sources */,
+				047452D51E5180FA00403002 /* Frameworks */,
+				047452D61E5180FA00403002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWQPasswordBox;
+			productName = DWQPasswordBox;
+			productReference = 047452D81E5180FA00403002 /* DWQPasswordBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047452F01E5180FA00403002 /* DWQPasswordBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047453081E5180FA00403002 /* Build configuration list for PBXNativeTarget "DWQPasswordBoxTests" */;
+			buildPhases = (
+				047452ED1E5180FA00403002 /* Sources */,
+				047452EE1E5180FA00403002 /* Frameworks */,
+				047452EF1E5180FA00403002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047452F31E5180FA00403002 /* PBXTargetDependency */,
+			);
+			name = DWQPasswordBoxTests;
+			productName = DWQPasswordBoxTests;
+			productReference = 047452F11E5180FA00403002 /* DWQPasswordBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047452FB1E5180FA00403002 /* DWQPasswordBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0474530B1E5180FA00403002 /* Build configuration list for PBXNativeTarget "DWQPasswordBoxUITests" */;
+			buildPhases = (
+				047452F81E5180FA00403002 /* Sources */,
+				047452F91E5180FA00403002 /* Frameworks */,
+				047452FA1E5180FA00403002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047452FE1E5180FA00403002 /* PBXTargetDependency */,
+			);
+			name = DWQPasswordBoxUITests;
+			productName = DWQPasswordBoxUITests;
+			productReference = 047452FC1E5180FA00403002 /* DWQPasswordBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047452D01E5180FA00403002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.sdzw.duwenquan;
+				TargetAttributes = {
+					047452D71E5180FA00403002 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+					};
+					047452F01E5180FA00403002 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047452D71E5180FA00403002;
+					};
+					047452FB1E5180FA00403002 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047452D71E5180FA00403002;
+					};
+				};
+			};
+			buildConfigurationList = 047452D31E5180FA00403002 /* Build configuration list for PBXProject "DWQPasswordBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047452CF1E5180FA00403002;
+			productRefGroup = 047452D91E5180FA00403002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047452D71E5180FA00403002 /* DWQPasswordBox */,
+				047452F01E5180FA00403002 /* DWQPasswordBoxTests */,
+				047452FB1E5180FA00403002 /* DWQPasswordBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047452D61E5180FA00403002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047452EB1E5180FA00403002 /* LaunchScreen.storyboard in Resources */,
+				047453161E51860E00403002 /* duwenquanLogo.png in Resources */,
+				047452E81E5180FA00403002 /* Assets.xcassets in Resources */,
+				047452E61E5180FA00403002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047452EF1E5180FA00403002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047452FA1E5180FA00403002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047452D41E5180FA00403002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047453141E5181B400403002 /* NSString+DWQCategory.m in Sources */,
+				047452E31E5180FA00403002 /* ViewController.m in Sources */,
+				047452E01E5180FA00403002 /* AppDelegate.m in Sources */,
+				047453111E51817C00403002 /* DWQPasswordBoxView.m in Sources */,
+				047452DD1E5180FA00403002 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047452ED1E5180FA00403002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047452F61E5180FA00403002 /* DWQPasswordBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047452F81E5180FA00403002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047453011E5180FA00403002 /* DWQPasswordBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047452F31E5180FA00403002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047452D71E5180FA00403002 /* DWQPasswordBox */;
+			targetProxy = 047452F21E5180FA00403002 /* PBXContainerItemProxy */;
+		};
+		047452FE1E5180FA00403002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047452D71E5180FA00403002 /* DWQPasswordBox */;
+			targetProxy = 047452FD1E5180FA00403002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047452E41E5180FA00403002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047452E51E5180FA00403002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047452E91E5180FA00403002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047452EA1E5180FA00403002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047453031E5180FA00403002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047453041E5180FA00403002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047453061E5180FA00403002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQPasswordBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQPasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		047453071E5180FA00403002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQPasswordBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQPasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		047453091E5180FA00403002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQPasswordBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQPasswordBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWQPasswordBox.app/DWQPasswordBox";
+			};
+			name = Debug;
+		};
+		0474530A1E5180FA00403002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQPasswordBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQPasswordBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWQPasswordBox.app/DWQPasswordBox";
+			};
+			name = Release;
+		};
+		0474530C1E5180FA00403002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQPasswordBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQPasswordBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWQPasswordBox;
+			};
+			name = Debug;
+		};
+		0474530D1E5180FA00403002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQPasswordBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQPasswordBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWQPasswordBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047452D31E5180FA00403002 /* Build configuration list for PBXProject "DWQPasswordBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047453031E5180FA00403002 /* Debug */,
+				047453041E5180FA00403002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047453051E5180FA00403002 /* Build configuration list for PBXNativeTarget "DWQPasswordBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047453061E5180FA00403002 /* Debug */,
+				047453071E5180FA00403002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047453081E5180FA00403002 /* Build configuration list for PBXNativeTarget "DWQPasswordBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047453091E5180FA00403002 /* Debug */,
+				0474530A1E5180FA00403002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0474530B1E5180FA00403002 /* Build configuration list for PBXNativeTarget "DWQPasswordBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0474530C1E5180FA00403002 /* Debug */,
+				0474530D1E5180FA00403002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047452D01E5180FA00403002 /* Project object */;
+}
