@@ -1,5 +1,5 @@
-# DWQPasswordBox
-![image](https://github.com/DevelopmentEngineer-DWQ/DWQPasswordBox/duwenquanLogo.png)
+＃DWQPasswordBox一款超级
+！[image] （https://github.com/DevelopmentEngineer-DWQ/DWQPasswordBox/duwenquanLogo.png）
 
 可高度自定义的密码输入框
 
